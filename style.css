@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0077b6;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.nav--bar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 15px 48px 0px #000000;
+  box-shadow: 0px 15px 48px 0px #000000;
+}
+.nav--bar h1 {
+  font-size: 32px;
+  color: #0077b6;
+  letter-spacing: 2px;
+}
+.nav--bar h4 {
+  letter-spacing: 3px;
+}
+
+.color--box {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  padding: 20px;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.color--box .text--background {
+  color: white;
+  font-size: 45px;
+}
+.color--box .text--code {
+  color: white;
+  font-size: 45px;
+}
+
+/* CSS */
+
+.buttonClass {
+  position: absolute;
+  top: 70vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-family: Arial;
+  width: 180px;
+  height: 80px;
+  border-width: 2px;
+  color: black;
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: transparent;
+  transition-duration: 1s;
+}
+
+.buttonClass:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
