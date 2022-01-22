@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
   background-color: #0077b6;
   padding: 0;
   margin: 0;
@@ -33,13 +33,13 @@ body {
   border-radius: 15px;
   transform: translate(-50%, -50%);
   background-color: black;
-  width: 600px;
+  width: 550px;
   margin: 0 auto;
   text-align: center;
 }
 .color--box .text--background {
   color: white;
-  font-size: 45px;
+  font-size: 36px;
 }
 .color--box .text--code {
   color: white;
@@ -53,21 +53,21 @@ body {
   top: 70vh;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 28px;
+  font-size: 24px;
   font-family: Arial;
   width: 180px;
   height: 80px;
   border-width: 2px;
-  color: black;
+  color: white;
   border: 2px solid;
   border-radius: 8px;
-  background-color: transparent;
+  background-color: black;
   transition-duration: 1s;
 }
 
 .buttonClass:hover {
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: black;
   cursor: pointer;
 }
 .hidden {
